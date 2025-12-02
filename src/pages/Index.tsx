@@ -220,7 +220,7 @@ const Index = () => {
             {[
               {
                 title: 'ООО MARS',
-                description: 'Комплексный ремонт фасада',
+                description: 'Высотный клининг',
                 metrics: '12 000 м² • 45 дней',
               },
               {
