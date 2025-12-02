@@ -48,7 +48,7 @@ const Index = () => {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Building2" size={28} className="text-secondary" />
-            <span className="text-xl font-bold">АльпГарант</span>
+            <span className="text-xl font-bold">АльпГарант54</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#services" className="text-sm font-medium hover:text-secondary transition-colors">
