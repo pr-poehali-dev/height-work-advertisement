@@ -597,7 +597,7 @@ const Index = () => {
               <Icon name="Building2" size={24} className="text-secondary" />
               <span className="font-bold">АльпГарант</span>
             </div>
-            <p className="text-sm text-muted-foreground">© 2024 АльпГарант. Все права защищены.</p>
+            <p className="text-sm text-muted-foreground">© 2025 АльпГарант. Все права защищены.</p>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">
                 <Icon name="Facebook" size={20} />
