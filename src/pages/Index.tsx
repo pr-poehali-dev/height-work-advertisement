@@ -192,6 +192,11 @@ const Index = () => {
                 title: 'Сброс снега с крыш',
                 description: 'Профессиональная уборка снега и наледи с крыш зданий',
               },
+              {
+                icon: 'Wind',
+                title: 'Обеспыливание и высотный клининг',
+                description: 'Уборка и обеспыливание производственных помещений на высоте',
+              },
             ].map((service, idx) => (
               <Card key={idx} className="hover:shadow-xl transition-all hover:scale-105 border-2 hover:border-secondary">
                 <CardHeader>
