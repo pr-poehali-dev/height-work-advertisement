@@ -91,7 +91,7 @@ const Index = () => {
           <div className="absolute inset-0 bg-primary/70"></div>
         </div>
         <div className="container relative z-10 text-center text-white">
-          <Badge className="mb-4 bg-accent text-white border-0">15+ лет на рынке</Badge>
+          <Badge className="mb-4 bg-accent text-white border-0"></Badge>
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
             Профессиональные
             <br />
