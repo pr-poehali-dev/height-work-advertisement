@@ -117,14 +117,14 @@ const Index = () => {
             <Card className="text-center border-2 hover:border-secondary transition-all hover:shadow-lg">
               <CardHeader>
                 <Icon name="Award" size={48} className="mx-auto text-accent mb-2" />
-                <CardTitle className="text-3xl">500+</CardTitle>
+                <CardTitle className="text-3xl">50+</CardTitle>
                 <CardDescription>Завершённых проектов</CardDescription>
               </CardHeader>
             </Card>
             <Card className="text-center border-2 hover:border-secondary transition-all hover:shadow-lg">
               <CardHeader>
                 <Icon name="Users" size={48} className="mx-auto text-accent mb-2" />
-                <CardTitle className="text-3xl">50+</CardTitle>
+                <CardTitle className="text-3xl">15+</CardTitle>
                 <CardDescription>Квалифицированных специалистов</CardDescription>
               </CardHeader>
             </Card>
@@ -380,8 +380,8 @@ const Index = () => {
                 <CardTitle>Лицензии и сертификаты</CardTitle>
                 <CardDescription className="text-base space-y-2 text-foreground/70">
                   <p>✓ Лицензия на высотные работы</p>
-                  <p>✓ Допуски СРО</p>
-                  <p>✓ Сертификаты IRATA</p>
+                  <p></p>
+                  <p></p>
                   <p>✓ Аттестация Ростехнадзора</p>
                 </CardDescription>
               </CardHeader>
@@ -391,8 +391,8 @@ const Index = () => {
                 <Icon name="Shield" size={40} className="text-accent mb-2" />
                 <CardTitle>Страхование</CardTitle>
                 <CardDescription className="text-base space-y-2 text-foreground/70">
-                  <p>✓ Страхование ответственности до 10 млн ₽</p>
-                  <p>✓ Страхование сотрудников</p>
+                  <p></p>
+                  <p></p>
                   <p>✓ Гарантия на работы до 5 лет</p>
                   <p>✓ Договор с фиксированными сроками</p>
                 </CardDescription>
