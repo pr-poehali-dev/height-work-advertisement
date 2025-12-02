@@ -94,9 +94,7 @@ const Index = () => {
             <br />
             высотные работы
           </h1>
-          <p className="text-xl mb-8 max-w-2xl mx-auto text-white/90">
-            Гарантируем безопасность, качество и соблюдение сроков. Лицензии и сертификаты международного образца.
-          </p>
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-white/90">Гарантируем безопасность, качество и соблюдение сроков. </p>
           <div className="flex gap-4 justify-center flex-wrap">
             <Button size="lg" className="bg-accent hover:bg-accent/90">
               <Icon name="Calculator" size={20} className="mr-2" />
