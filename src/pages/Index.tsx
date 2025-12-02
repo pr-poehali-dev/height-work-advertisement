@@ -60,6 +60,9 @@ const Index = () => {
             <a href="#team" className="text-sm font-medium hover:text-secondary transition-colors">
               Команда
             </a>
+            <a href="#reviews" className="text-sm font-medium hover:text-secondary transition-colors">
+              Отзывы
+            </a>
             <a href="#guarantees" className="text-sm font-medium hover:text-secondary transition-colors">
               Гарантии
             </a>
@@ -237,7 +240,81 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="team" className="py-20">
+      <section id="reviews" className="py-20">
+        <div className="container">
+          <div className="text-center mb-12">
+            <Badge className="mb-4">Отзывы</Badge>
+            <h2 className="text-4xl font-bold mb-4">Что говорят наши клиенты</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+              Доверие клиентов — главная награда за нашу работу
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {[
+              {
+                name: 'Михаил Соколов',
+                position: 'Директор ТЦ "Метрополис"',
+                rating: 5,
+                text: 'Отличная команда профессионалов! Выполнили ремонт фасада точно в срок, качество работы на высшем уровне. Особо хочу отметить соблюдение всех норм безопасности.',
+              },
+              {
+                name: 'Елена Краснова',
+                position: 'Управляющая БЦ "Сити Тауэр"',
+                rating: 5,
+                text: 'Сотрудничаем с ВысотСтрой уже третий год. Регулярно заказываем мойку фасада — всегда оперативно, качественно и по адекватной цене. Рекомендуем!',
+              },
+              {
+                name: 'Андрей Петров',
+                position: 'Застройщик ЖК "Северный"',
+                rating: 5,
+                text: 'Герметизация швов выполнена безупречно. Команда работала даже в сложных погодных условиях, не сорвав сроки. Гарантийное обслуживание тоже на высоте.',
+              },
+              {
+                name: 'Ольга Смирнова',
+                position: 'Главный инженер ТРЦ "Галерея"',
+                rating: 5,
+                text: 'Профессиональный подход на всех этапах. От расчёта сметы до финальной приёмки — всё чётко и прозрачно. Особенно понравилась оперативность аварийной службы.',
+              },
+              {
+                name: 'Дмитрий Волков',
+                position: 'Владелец производственного комплекса',
+                rating: 5,
+                text: 'Заказывали покраску металлоконструкций на высоте 60 метров. Работы выполнены качественно, все документы и допуски оформлены грамотно. Спасибо за профессионализм!',
+              },
+              {
+                name: 'Сергей Новиков',
+                position: 'Технический директор "СтройИнвест"',
+                rating: 5,
+                text: 'Сотрудничаем постоянно по различным объектам. ВысотСтрой — надёжный партнёр с адекватными ценами и высоким качеством работ. Всегда соблюдают технику безопасности.',
+              },
+            ].map((review, idx) => (
+              <Card key={idx} className="hover:shadow-xl transition-all border-2 hover:border-secondary">
+                <CardHeader>
+                  <div className="flex items-center gap-2 mb-3">
+                    {Array.from({ length: review.rating }).map((_, i) => (
+                      <Icon key={i} name="Star" size={18} className="text-accent fill-accent" />
+                    ))}
+                  </div>
+                  <CardDescription className="text-base text-foreground/80 mb-4">
+                    "{review.text}"
+                  </CardDescription>
+                  <div className="flex items-center gap-3 pt-4 border-t">
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-secondary to-accent flex items-center justify-center flex-shrink-0">
+                      <Icon name="User" size={24} className="text-white" />
+                    </div>
+                    <div>
+                      <CardTitle className="text-base">{review.name}</CardTitle>
+                      <p className="text-sm text-muted-foreground">{review.position}</p>
+                    </div>
+                  </div>
+                </CardHeader>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="team" className="py-20 bg-muted/30">
         <div className="container">
           <div className="text-center mb-12">
             <Badge className="mb-4">Наша команда</Badge>
@@ -290,7 +367,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="guarantees" className="py-20 bg-muted/30">
+      <section id="guarantees" className="py-20">
         <div className="container">
           <div className="text-center mb-12">
             <Badge className="mb-4">Гарантии</Badge>
