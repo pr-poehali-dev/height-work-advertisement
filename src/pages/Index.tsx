@@ -228,6 +228,7 @@ const Index = () => {
                 title: 'АО "Вектор-Бест"',
                 description: 'Мойка остекления',
                 metrics: '8 500 м² • 15 дней',
+                image: 'https://cdn.poehali.dev/files/73e3dc73-5a13-4a51-a5f1-d6585c3902dc.jpg',
               },
               {
                 title: 'ГК "Расцветай"',
