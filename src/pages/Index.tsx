@@ -219,7 +219,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               {
-                title: 'ТЦ "Метрополис"',
+                title: 'ООО MARS',
                 description: 'Комплексный ремонт фасада',
                 metrics: '12 000 м² • 45 дней',
               },
