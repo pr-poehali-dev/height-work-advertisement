@@ -221,7 +221,7 @@ const Index = () => {
               {
                 title: 'ООО MARS',
                 description: 'Высотный клининг',
-                metrics: '12 000 м² • 45 дней',
+                metrics: '',
               },
               {
                 title: 'БЦ "Сити Тауэр"',
