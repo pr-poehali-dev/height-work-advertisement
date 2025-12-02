@@ -236,6 +236,11 @@ const Index = () => {
                 metrics: '10 000 п.м',
                 image: 'https://cdn.poehali.dev/files/d58daa54-8adc-4882-b48a-3befc33e33e8.jpg',
               },
+              {
+                title: 'Grand Autograph Hotel Novosibirsk',
+                description: 'Мойка остекления',
+                metrics: '1 500 м²',
+              },
             ].map((project, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-xl transition-shadow">
                 <div className="h-48 bg-gradient-to-br from-secondary to-primary bg-cover bg-center" style={project.image ? { backgroundImage: `url(${project.image})` } : {}}></div>
