@@ -48,7 +48,7 @@ const Index = () => {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Building2" size={28} className="text-secondary" />
-            <span className="text-xl font-bold">ВысотСтрой</span>
+            <span className="text-xl font-bold">АльпГарант</span>
           </div>
           <nav className="hidden md:flex items-center gap-6">
             <a href="#services" className="text-sm font-medium hover:text-secondary transition-colors">
@@ -261,7 +261,7 @@ const Index = () => {
                 name: 'Елена Краснова',
                 position: 'Управляющая БЦ "Сити Тауэр"',
                 rating: 5,
-                text: 'Сотрудничаем с ВысотСтрой уже третий год. Регулярно заказываем мойку фасада — всегда оперативно, качественно и по адекватной цене. Рекомендуем!',
+                text: 'Сотрудничаем с АльпГарант уже третий год. Регулярно заказываем мойку фасада — всегда оперативно, качественно и по адекватной цене. Рекомендуем!',
               },
               {
                 name: 'Андрей Петров',
@@ -285,7 +285,7 @@ const Index = () => {
                 name: 'Сергей Новиков',
                 position: 'Технический директор "СтройИнвест"',
                 rating: 5,
-                text: 'Сотрудничаем постоянно по различным объектам. ВысотСтрой — надёжный партнёр с адекватными ценами и высоким качеством работ. Всегда соблюдают технику безопасности.',
+                text: 'Сотрудничаем постоянно по различным объектам. АльпГарант — надёжный партнёр с адекватными ценами и высоким качеством работ. Всегда соблюдают технику безопасности.',
               },
             ].map((review, idx) => (
               <Card key={idx} className="hover:shadow-xl transition-all border-2 hover:border-secondary">
@@ -538,8 +538,8 @@ const Index = () => {
                   <Icon name="Mail" size={24} className="text-accent" />
                   <div>
                     <p className="font-semibold">Email</p>
-                    <a href="mailto:info@vysotstroi.ru" className="text-white/80 hover:text-accent transition-colors">
-                      info@vysotstroi.ru
+                    <a href="mailto:info@alpgarant.ru" className="text-white/80 hover:text-accent transition-colors">
+                      info@alpgarant.ru
                     </a>
                   </div>
                 </div>
@@ -595,9 +595,9 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2">
               <Icon name="Building2" size={24} className="text-secondary" />
-              <span className="font-bold">ВысотСтрой</span>
+              <span className="font-bold">АльпГарант</span>
             </div>
-            <p className="text-sm text-muted-foreground">© 2024 ВысотСтрой. Все права защищены.</p>
+            <p className="text-sm text-muted-foreground">© 2024 АльпГарант. Все права защищены.</p>
             <div className="flex gap-4">
               <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">
                 <Icon name="Facebook" size={20} />
