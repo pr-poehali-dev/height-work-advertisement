@@ -222,6 +222,7 @@ const Index = () => {
                 title: 'ООО MARS',
                 description: 'Высотный клининг',
                 metrics: '',
+                image: 'https://cdn.poehali.dev/files/9c2a57b6-edf8-4540-8dbd-48eac24986db.jpg',
               },
               {
                 title: 'АО "Вектор-Бест"',
@@ -235,7 +236,7 @@ const Index = () => {
               },
             ].map((project, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-xl transition-shadow">
-                <div className="h-48 bg-gradient-to-br from-secondary to-primary"></div>
+                <div className="h-48 bg-gradient-to-br from-secondary to-primary bg-cover bg-center" style={project.image ? { backgroundImage: `url(${project.image})` } : {}}></div>
                 <CardHeader>
                   <CardTitle>{project.title}</CardTitle>
                   <CardDescription className="text-base">{project.description}</CardDescription>
