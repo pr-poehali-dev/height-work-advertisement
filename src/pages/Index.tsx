@@ -231,7 +231,7 @@ const Index = () => {
               {
                 title: 'ГК "Расцветай"',
                 description: 'Герметизация швов',
-                metrics: '25 000 м² • 60 дней',
+                metrics: '10 000 п.м',
               },
             ].map((project, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-xl transition-shadow">
