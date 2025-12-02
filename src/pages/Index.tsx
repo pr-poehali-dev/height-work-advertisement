@@ -187,6 +187,11 @@ const Index = () => {
                 title: 'Кровельные работы',
                 description: 'Ремонт и монтаж кровли, установка снегозадержателей',
               },
+              {
+                icon: 'Snowflake',
+                title: 'Сброс снега с крыш',
+                description: 'Профессиональная уборка снега и наледи с крыш зданий',
+              },
             ].map((service, idx) => (
               <Card key={idx} className="hover:shadow-xl transition-all hover:scale-105 border-2 hover:border-secondary">
                 <CardHeader>
