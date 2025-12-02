@@ -57,12 +57,8 @@ const Index = () => {
             <a href="#portfolio" className="text-sm font-medium hover:text-secondary transition-colors">
               Портфолио
             </a>
-            <a href="#team" className="text-sm font-medium hover:text-secondary transition-colors">
-              Команда
-            </a>
-            <a href="#reviews" className="text-sm font-medium hover:text-secondary transition-colors">
-              Отзывы
-            </a>
+            <a href="#team" className="text-sm font-medium hover:text-secondary transition-colors"></a>
+            <a href="#reviews" className="text-sm font-medium hover:text-secondary transition-colors"></a>
             <a href="#guarantees" className="text-sm font-medium hover:text-secondary transition-colors">
               Гарантии
             </a>
