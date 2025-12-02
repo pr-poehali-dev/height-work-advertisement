@@ -240,6 +240,7 @@ const Index = () => {
                 title: 'Grand Autograph Hotel Novosibirsk',
                 description: 'Мойка остекления',
                 metrics: '1 500 м²',
+                image: 'https://cdn.poehali.dev/files/a632238a-98de-4c40-8902-974c6b795aa5.jpg',
               },
             ].map((project, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-xl transition-shadow">
