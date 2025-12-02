@@ -234,6 +234,7 @@ const Index = () => {
                 title: 'ГК "Расцветай"',
                 description: 'Герметизация швов',
                 metrics: '10 000 п.м',
+                image: 'https://cdn.poehali.dev/files/d58daa54-8adc-4882-b48a-3befc33e33e8.jpg',
               },
             ].map((project, idx) => (
               <Card key={idx} className="overflow-hidden hover:shadow-xl transition-shadow">
